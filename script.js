@@ -190,7 +190,7 @@ class Effect {
   }
 
   drawText() {
-    this.context.font = "450px Impact";
+    this.context.font = "300px Impact";
     this.context.textAlign = "center";
     this.context.textBaseline = "middle";
 
@@ -218,7 +218,7 @@ class Effect {
     gradient2.addColorStop(0.6, "rgb(0,0,255)");
     gradient2.addColorStop(0.8, "rgb(0,0,0)");
 
-    this.context.fillStyle = gradient2;
+    this.context.fillStyle = gradient1;
     this.context.fillText(
       "Malmi",
       this.width * 0.5,
